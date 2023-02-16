@@ -4,12 +4,12 @@
 - [**MANDATORY CHALLENGES**](#mandatory-challenges)<br>
   :white_check_mark:  [Recreate Conceptual Diagram in Lucid Charts or Napkin](#recreate-conceptual-diagram-in-lucid-charts-or-napkin)<br>
   :black_square_button: [Recreate Logical Architectual Diagram in Lucid Charts](#recreate-logical-architectual-diagram-in-lucid-charts)<br>
-  :black_square_button: [Create an Admin User](#create-an-admin-user)<br>
+  :white_check_mark: [Create an Admin User](#create-an-admin-user)<br>
   :black_square_button: [Using CloudShell](#using-cloudshell)<br>
-  :black_square_button: [Generating AWS Credentials](#generating-aws-credentials)<br>
+  :white_check_mark: [Generating AWS Credentials](#generating-aws-credentials)<br>
   :black_square_button: [Install AWS CLI](#install-aws-cli)<br>
   :white_check_mark: [Create a Billing Alarm](#create-a-billing-alarm)<br>
-  :white_check_mark: [Create AWS Budget](#create-aws-budget)<br><br>
+  :white_check_mark: [Create a AWS Budget](#create-aws-budget)<br><br>
 
 - [**BROWNIE CHALLENGES**](#brownie-challenges)<br>
   :black_square_button: [Destroy your root account credentials, Set MFA, IAM role](#destroy-your-root-account-credentials-set-mfa-iam-role)<br>
@@ -27,10 +27,16 @@
 
 ### Recreate Logical Architectural Diagrams in Lucid Chart
 ### Create an Admin User 
+<img width="1391" alt="Screenshot 2023-02-16 at 12 00 21" src="https://user-images.githubusercontent.com/15687491/219359580-638dda70-2994-4e29-9d86-ab38db9b2eff.png">
+
 ### Using CloudShell
 ### Generating AWS Credentials
+
+
+
 ### Install AWS CLI
 ### Create a Billing Alarm
 <img width="1440" alt="Screenshot 2023-02-16 at 07 56 17" src="https://user-images.githubusercontent.com/15687491/219302984-a1b82c84-cc96-46e9-8734-ed6af32f21be.png">
-### Create AWS Budget
+
+### Create a AWS Budget
 <img width="1440" alt="Screenshot 2023-02-15 at 19 33 41" src="https://user-images.githubusercontent.com/15687491/219291053-f54cdf69-434f-4f71-8819-152c6b16838d.png">
