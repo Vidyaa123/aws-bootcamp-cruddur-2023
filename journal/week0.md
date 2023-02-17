@@ -26,7 +26,7 @@
 <br>
 
 ## My Notes
-Ephemeral Microblogging platform
+####Ephemeral Microblogging platform
 
 Investers - Cost/Budget
 
@@ -36,11 +36,11 @@ CTO
 
 iron triangle - Fast-cheap-good
 
-**Architecture:**
+####Architecture:
 
-**Requirements/Risks/Assumptions/Constraints**
+Requirements/Risks/Assumptions/Constraints**
 
-/requirements
+- requirements
 
 Common dictionary between all people
 
@@ -50,7 +50,7 @@ it should be measurable
 
 feasible/monitorable/traceable/verifiable
 
-/risks
+- risks
 
 that prevents the project from being successful
 
@@ -58,13 +58,13 @@ single point of failure
 
 Late delivery
 
-/assumptions
+- assumptions
 
 factors held as true for the planning and implementation phase
 
 example - budget is approved, enough network bandwidth
 
-/constraints
+- constraints
 
 policy or technical limitations for the project
 
@@ -72,13 +72,14 @@ time/budget/vendor selection
 
 £0 using free tier/14-16 weeks/
 
-Initial **Conceptual design** - **HLD**
+
+#### Initial Conceptual design - HLD
 
 understandable by business stakeholders -*napkin design*
 
 organises and defines concepts and rules
 
-**Logical design**
+#### Logical design
 
 defines how the system should be implemented
 
@@ -86,13 +87,13 @@ Blueprint
 
 break large conceptual block to more logical blocks
 
-**physical design - LLD**
+#### physical design - LLD
 
 representing the actual thing that is build
 
 down to individual description
 
-TOGAF - architecture framework
+#### TOGAF - architecture framework
 
 maps closely to WAF
 
@@ -105,17 +106,25 @@ C4 model for visualising software architecture
 
 ### Recreate Logical Architectural Diagram in Lucid Chart
 #### Recreated the logical diagram created by Andrew,
+Logical diagram helped me to understand the individual AWS services that will be used in this project. 
 ![Logical Architectural Diagram - Cruddur](https://user-images.githubusercontent.com/15687491/219449948-db3d502f-df72-4471-a62f-51fba83a786a.png)
 [*Click to View Logical Architectural diagram in Lucid Chart*](https://lucid.app/lucidchart/21671dd3-755a-4205-8cbd-2a08591d8836/edit?viewport_loc=-688%2C-822%2C3787%2C2167%2C0_0&invitationId=inv_3b593746-e813-4730-83bb-d746515cf59f)
+
 ### Create an Admin User 
+I created a user and added it to Admin group which has all Administrative privileges attached to it. So all users in the group will inherit those privileges. By default an IAM user does not have any access.(Prinicple of least Privilege)
+
 <img width="1391" alt="Screenshot 2023-02-16 at 12 00 21" src="https://user-images.githubusercontent.com/15687491/219359580-638dda70-2994-4e29-9d86-ab38db9b2eff.png">
 
 ### Using CloudShell
-### Generating AWS Credentials
+Used Cloudshell to try out various CLI commands.
 
+### Generating AWS Credentials
+Created access credentials for IAM user. This credential can be used to access AWS CLI.
 
 
 ### Install AWS CLI
+Installed AWS ClI in Gitpod. Instead of running the install everytime the script was added to gitpod.yml file so it gets automatically executed when a new workspace is created.
+
 ### Create a Billing Alarm
 <img width="1440" alt="Screenshot 2023-02-16 at 07 56 17" src="https://user-images.githubusercontent.com/15687491/219302984-a1b82c84-cc96-46e9-8734-ed6af32f21be.png">
 
