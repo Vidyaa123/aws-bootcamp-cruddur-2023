@@ -26,6 +26,77 @@
 <br>
 
 ## My Notes
+Ephemeral Microblogging platform
+
+Investers - Cost/Budget
+
+Web Dev Group
+
+CTO
+
+iron triangle - Fast-cheap-good
+
+**Architecture:**
+
+**Requirements/Risks/Assumptions/Constraints**
+
+/requirements
+
+Common dictionary between all people
+
+requirements - project that must be achieved at the end
+
+it should be measurable
+
+feasible/monitorable/traceable/verifiable
+
+/risks
+
+that prevents the project from being successful
+
+single point of failure
+
+Late delivery
+
+/assumptions
+
+factors held as true for the planning and implementation phase
+
+example - budget is approved, enough network bandwidth
+
+/constraints
+
+policy or technical limitations for the project
+
+time/budget/vendor selection
+
+£0 using free tier/14-16 weeks/
+
+Initial **Conceptual design** - **HLD**
+
+understandable by business stakeholders -*napkin design*
+
+organises and defines concepts and rules
+
+**Logical design**
+
+defines how the system should be implemented
+
+Blueprint
+
+break large conceptual block to more logical blocks
+
+**physical design - LLD**
+
+representing the actual thing that is build
+
+down to individual description
+
+TOGAF - architecture framework
+
+maps closely to WAF
+
+C4 model for visualising software architecture
 ## Mandatory Challenges
 ### Recreate Conceptual Diagram in Lucid Chart or Napkin
 #### I recreated the conceptual diagram from the bootcamp using Lucid Chart. First time, using this tool and it was a breeze to work with. I am able to understand on a high level what are the features and services that we will be using and how they are connected.
