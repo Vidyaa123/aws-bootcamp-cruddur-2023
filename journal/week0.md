@@ -117,13 +117,16 @@ I created a user and added it to Admin group which has all Administrative privil
 
 ### Using CloudShell
 Used Cloudshell to try out various CLI commands.
+<img width="1436" alt="Screenshot 2023-02-17 at 15 32 10" src="https://user-images.githubusercontent.com/15687491/219697497-83706624-8265-402d-93e2-9bc93e6d71b8.png">
 
 ### Generating AWS Credentials
 Created access credentials for IAM user. This credential can be used to access AWS CLI.
 
+![Screenshot 2023-02-17 at 15 33 35](https://user-images.githubusercontent.com/15687491/219699849-4a9bc0f2-8142-45d0-811d-70fa67e9a4f5.jpg)
 
 ### Install AWS CLI
 Installed AWS ClI in Gitpod. Instead of running the install everytime the script was added to gitpod.yml file so it gets automatically executed when a new workspace is created.
+<img width="1419" alt="Screenshot 2023-02-17 at 15 29 08" src="https://user-images.githubusercontent.com/15687491/219696497-c9a05185-90dc-4610-9925-3d70ae9a5cb9.png">
 
 ### Create a Billing Alarm
 <img width="1440" alt="Screenshot 2023-02-16 at 07 56 17" src="https://user-images.githubusercontent.com/15687491/219302984-a1b82c84-cc96-46e9-8734-ed6af32f21be.png">
