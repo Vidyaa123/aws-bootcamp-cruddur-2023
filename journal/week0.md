@@ -133,3 +133,10 @@ Installed AWS ClI in Gitpod. Instead of running the install everytime the script
 
 ### Create a AWS Budget
 <img width="1440" alt="Screenshot 2023-02-15 at 19 33 41" src="https://user-images.githubusercontent.com/15687491/219291053-f54cdf69-434f-4f71-8819-152c6b16838d.png">
+
+
+## Quiz
+### Pricing Quiz 
+<img width="1112" alt="Screenshot 2023-02-17 at 15 55 08" src="https://user-images.githubusercontent.com/15687491/219702346-b5b2496e-1cff-47b5-89d5-39955d32b16d.png">
+### Security Quiz
+<img width="1112" alt="Screenshot 2023-02-17 at 15 55 08" src="https://user-images.githubusercontent.com/15687491/219702346-b5b2496e-1cff-47b5-89d5-39955d32b16d.png">
