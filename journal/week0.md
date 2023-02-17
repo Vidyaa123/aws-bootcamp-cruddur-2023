@@ -26,17 +26,21 @@
 <br>
 
 ## My Notes
-####Ephemeral Microblogging platform
+#### Ephemeral Micro-blogging platform
 
+Me - Cloud Engineer
 Investers - Cost/Budget
 
 Web Dev Group
 
-CTO
+Fractional CTO
 
 iron triangle - Fast-cheap-good
 
-####Architecture:
+The frontend application is written in Javascript using react and backend application should be written in Python using Flask
+Should take advantage of microserverice architecture
+
+#### Architecture:
 
 Requirements/Risks/Assumptions/Constraints**
 
