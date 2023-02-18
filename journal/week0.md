@@ -212,6 +212,8 @@ aws cloudwatch put-metric-alarm --cli-input-json file://aws/json/alarm_config.js
 ### Pricing & Security Quiz 
 <img width="1112" alt="Screenshot 2023-02-17 at 15 55 08" src="https://user-images.githubusercontent.com/15687491/219702346-b5b2496e-1cff-47b5-89d5-39955d32b16d.png">
 
-##Brownie Challenges
+## Brownie Challenges
 
 ### Use EventBridge to hookup Health Dashboard to SNS and Send Notification
+<img width="1412" alt="Screenshot 2023-02-18 at 07 50 25" src="https://user-images.githubusercontent.com/15687491/219848919-821ddfa7-cebb-4793-80cc-0b54918a0142.png">
+<img width="1274" alt="Health-alert" src="https://user-images.githubusercontent.com/15687491/219850425-0b978c8b-846f-4af7-955f-be34a24467f7.png">
