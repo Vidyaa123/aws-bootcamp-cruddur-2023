@@ -18,7 +18,7 @@
   
 - [**BROWNIE CHALLENGES**](#brownie-challenges)<br>
   :white_check_mark: [Destroy your root account credentials, Set MFA, IAM role](#destroy-your-root-account-credentials-set-mfa-iam-role)<br>
-  :black_square_button: [Use EventBridge to hookup Health Dashboard to SNS and send notification when there is a service health issue.](#use-eventbridge-to-hookup-health-dashboard-to-sns-and-send-notification-when-there-is-a-service-health-issue)<br>
+  :white_check_mark: [Use EventBridge to hookup Health Dashboard to SNS and Send Notification](#use-eventbridge-to-hookup-health-dashboard-to-sns-and-send-notification)<br>
   :black_square_button: [Review all the questions of each pillars in the Well Architected Tool (No specialized lens)](#review-all-the-questions-of-each-pillars-in-the-well-architected-tool-no-specialized-lens)<br>
   :black_square_button: [Create an architectural diagram (to the best of your ability) the CI/CD logical pipeline in Lucid Charts](#create-an-architectural-diagram-to-the-best-of-your-ability-the-cicd-logical-pipeline-in-lucid-charts)<br>
   :black_square_button: [Research the technical and service limits of specific services and how they could impact the technical path for technical flexibility.](#research-the-technical-and-service-limits-of-specific-services-and-how-they-could-impact-the-technical-path-for-technical-flexibility)<br>
@@ -212,3 +212,6 @@ aws cloudwatch put-metric-alarm --cli-input-json file://aws/json/alarm_config.js
 ### Pricing & Security Quiz 
 <img width="1112" alt="Screenshot 2023-02-17 at 15 55 08" src="https://user-images.githubusercontent.com/15687491/219702346-b5b2496e-1cff-47b5-89d5-39955d32b16d.png">
 
+##Brownie Challenges
+
+### Use EventBridge to hookup Health Dashboard to SNS and Send Notification
