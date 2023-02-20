@@ -48,3 +48,15 @@
 - Docker Client ---- Laptop
 - Docker server(Host and Registry)Some images are public and some private
 <img width="734" alt="Screenshot 2023-02-20 at 08 13 19" src="https://user-images.githubusercontent.com/15687491/220049320-fc8370ff-dcc0-4820-b434-14a3150a10bd.png">
+
+<img width="828" alt="Screenshot 2023-02-20 at 12 17 44" src="https://user-images.githubusercontent.com/15687491/220105104-6c9ac7c6-7f5b-4b39-8b24-5d12f56faf19.png">
+
+
+
+### Livesttream - Docker with @James Spurin & @Edith Puclia
+
+- linuxstream.io
+- dockerhub 
+  -  a registry of containers public or private, free to use
+  -  OCI standard
+
