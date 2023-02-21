@@ -43,7 +43,22 @@
 - In managed container services we just need to focus on few things - secucurity is taken care by the cloud providers
 - managing container security needs practise
 - Unmanaged Containers needs lots of hours / Managed there will be restrictions(deoednds on the cloud service provider)
+#### Security Best Practices
+- Apply security pacthes to host and daemon
+- daemon and container should not run in root user mode
+- keep the image size small - download is quick
+- dont add secret files in any docker files
+- and file system is read only - dont need container escape
+- use seperate dabase for permanent storage (ex -RDS)
+- use devsecops practises in the ci/cd pipeline
+- ensure code has no vulnerabilities
 
+#### Extra 
+- Using Snyk Vuklnerability management tool
+- AWS Secret manager 
+- to store all secrets in AWS
+- can also use Hashicorp vault for holding secrets
+- Docker Image Vulnerability Scanning - Amazon Inspector /Clair(Open source)
 #### Docker Compopnents
 - Docker Client ---- Laptop
 - Docker server(Host and Registry)Some images are public and some private
