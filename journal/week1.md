@@ -4,12 +4,12 @@
 - [**MY NOTES**](#my-notes)<br>
 
 - [**MANDATORY CHALLENGES**](#mandatory-challenges)<br>
-  ⬛ [Containerize Applications](#containerize-applications)<br>
-  ⬛ [Document the Notification Endpoint for the OpenAI Document](#document-the-notification-endpoint-for-the-openai-document)<br>
-  ⬛ [Write a Flask Backend Endpoint for Notifications](#write-a-flask-backend-endpoint-for-notifications)<br>
-  ⬛ [Write a React Page for Notifications](#write-a-react-page-for-notifications)<br>
-  ⬛ [Run DynamoDB Local Container and ensure it works](#run-dynamodb-local-container-and-ensure-it-works)<br>
-  ⬛ [Run Postgres Container and ensure it works](#run-postgres-container-and-ensure-it-works)<br>
+  ✅ [Containerize Applications](#containerize-applications)<br>
+  ✅ [Document the Notification Endpoint for the OpenAPI Document](#document-the-notification-endpoint-for-the-openapi-document)<br>
+  ✅ [Write a Flask Backend Endpoint for Notifications](#write-a-flask-backend-endpoint-for-notifications)<br>
+  ✅ [Write a React Page for Notifications](#write-a-react-page-for-notifications)<br>
+  ✅ [Run DynamoDB Local Container and ensure it works](#run-dynamodb-local-container-and-ensure-it-works)<br>
+  ✅ [Run Postgres Container and ensure it works](#run-postgres-container-and-ensure-it-works)<br>
 
 ## My Notes
 ### Chirag's Pricing/Spending Considerations for Week 1
@@ -59,13 +59,6 @@
 - to store all secrets in AWS
 - can also use Hashicorp vault for holding secrets
 - Docker Image Vulnerability Scanning - Amazon Inspector /Clair(Open source)
-#### Docker Compopnents
-- Docker Client ---- Laptop
-- Docker server(Host and Registry)Some images are public and some private
-<img width="734" alt="Screenshot 2023-02-20 at 08 13 19" src="https://user-images.githubusercontent.com/15687491/220049320-fc8370ff-dcc0-4820-b434-14a3150a10bd.png">
-
-<img width="828" alt="Screenshot 2023-02-20 at 12 17 44" src="https://user-images.githubusercontent.com/15687491/220105104-6c9ac7c6-7f5b-4b39-8b24-5d12f56faf19.png">
-
 
 
 ### Livesttream - Docker with @James Spurin & @Edith Puclia
@@ -74,4 +67,23 @@
 - dockerhub 
   -  a registry of containers public or private, free to use
   -  OCI standard
+- 
 
+## MANDATORY CHALLENGES
+### Containerize Applications
+
+### Document the Notification Endpoint for the OpenAPI Document
+<img width="1087" alt="Screenshot 2023-02-21 at 18 30 27" src="https://user-images.githubusercontent.com/15687491/220707270-a08eb3b1-3c3d-4db9-81b9-fea821731654.png">
+
+### Write a Flask Backend Endpoint for Notifications
+
+### Write a React Page for Notifications
+<img width="1414" alt="Screenshot 2023-02-22 at 13 02 14" src="https://user-images.githubusercontent.com/15687491/220707099-bc264bba-51dd-4a64-9ec3-dc12276686b7.png">
+
+### Run DynamoDB Local Container and ensure it works
+<img width="1427" alt="Screenshot 2023-02-22 at 17 17 24" src="https://user-images.githubusercontent.com/15687491/220706819-b61ea2eb-2a7a-4c11-9109-0ee24388804e.png">
+
+### Run Postgres Container and ensure it works
+<img width="1386" alt="Screenshot 2023-02-22 at 17 12 14" src="https://user-images.githubusercontent.com/15687491/220707000-a71bbeb3-ec8d-4abe-9b14-1f749d5ff68d.png">
+
+ 
