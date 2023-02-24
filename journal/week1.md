@@ -244,6 +244,7 @@ export default function NotificationsFeedPage() {
 <img width="1087" alt="Screenshot 2023-02-21 at 18 30 27" src="https://user-images.githubusercontent.com/15687491/220707270-a08eb3b1-3c3d-4db9-81b9-fea821731654.png">
 
 ### Write a Flask Backend Endpoint for Notifications
+<img width="1259" alt="Screenshot 2023-02-24 at 18 54 14" src="https://user-images.githubusercontent.com/15687491/221267279-0ae14e4e-96fb-4791-9ad1-7c31f427ca0b.png">
 
 ### Write a React Page for Notifications
 <img width="1414" alt="Screenshot 2023-02-22 at 13 02 14" src="https://user-images.githubusercontent.com/15687491/220707099-bc264bba-51dd-4a64-9ec3-dc12276686b7.png">
