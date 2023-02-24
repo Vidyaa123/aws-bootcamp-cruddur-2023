@@ -2,9 +2,14 @@
 
 ## Tasks to Complete
 - [**MY NOTES**](#my-notes)<br>
+  ✅ [Chirag's Spending Considerations](#chirags-spending-considerations)<br>
+  ✅ [Ashish's Container Security Best Practices](#ashishs-container-security-best-practices)<br>
+  ✅ [Containerize Applications](#containerize-applications)<br>
+  ✅ [Write a React Page for Notifications](#write-a-react-page-for-notifications)<br>
+  ✅ [Run DynamoDB Local Container and ensure it works](#run-dynamodb-local-container-and-ensure-it-works)<br>
+  ✅ [Run Postgres Container and ensure it works](#run-postgres-container-and-ensure-it-works)<br>
 
 - [**MANDATORY CHALLENGES**](#mandatory-challenges)<br>
-  ✅ [Containerize Applications](#containerize-applications)<br>
   ✅ [Document the Notification Endpoint for the OpenAPI Document](#document-the-notification-endpoint-for-the-openapi-document)<br>
   ✅ [Write a Flask Backend Endpoint for Notifications](#write-a-flask-backend-endpoint-for-notifications)<br>
   ✅ [Write a React Page for Notifications](#write-a-react-page-for-notifications)<br>
@@ -12,7 +17,7 @@
   ✅ [Run Postgres Container and ensure it works](#run-postgres-container-and-ensure-it-works)<br>
 
 ## My Notes
-### Chirag's Pricing/Spending Considerations for Week 1
+### Chirag's Spending Considerations 
 #### Gitpod 
 - check the pricing calculator on the gitpod.io website to stay within 50 hours of usage per month for free.
 - Becomes inactive after 30 mins of no activity
@@ -32,11 +37,9 @@
 - stores logs for 90 days
 - do not opt for data and other insights.
 
-### Ashish's Container Security Considerations for Week 1
-#### Top 10 Container Security Best Practices
+### Ashish's Container Security Best Practices 
 - practise of protecting applications hosted in containers
 - Can be run in cloud or on-prem
-
 - Container First Strategy
 - Most applications are developed with Docker(Un-managed) / Managed AWS ECS / EKS
 - reduces impact of breach because of application segregation
@@ -53,16 +56,16 @@
 - use devsecops practises in the ci/cd pipeline
 - ensure code has no vulnerabilities
 
-#### Extra 
-- Using Snyk Vuklnerability management tool
-- AWS Secret manager 
-- to store all secrets in AWS
-- can also use Hashicorp vault for holding secrets
-- Docker Image Vulnerability Scanning - Amazon Inspector /Clair(Open source)
+#### Tools
+- Using **Snyk Vulnerability** management tool
+- **AWS Secret manager**
+  - to store all secrets in AWS
+  - can also use Hashicorp vault for holding secrets
+- Docker Image Vulnerability Scanning - **Amazon Inspector** /**Clair**(Open source)
 
 
-### Livesttream - Docker with @James Spurin & @Edith Puclia
-
+### Livestream - Docker with @James Spurin & @Edith Puclia
+### Containerize Applications
 - linuxstream.io
 - dockerhub 
   -  a registry of containers public or private, free to use
@@ -70,7 +73,7 @@
 - 
 
 ## MANDATORY CHALLENGES
-### Containerize Applications
+
 
 ### Document the Notification Endpoint for the OpenAPI Document
 <img width="1087" alt="Screenshot 2023-02-21 at 18 30 27" src="https://user-images.githubusercontent.com/15687491/220707270-a08eb3b1-3c3d-4db9-81b9-fea821731654.png">
