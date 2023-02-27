@@ -5,9 +5,7 @@
   ✅ [Chirag's Spending Considerations](#chirags-spending-considerations)<br>
   ✅ [Ashish's Container Security Best Practices](#ashishs-container-security-best-practices)<br>
   ✅ [Containerize Applications](#containerize-applications)<br>
-  ✅ [Write a React Page for Notifications](#write-a-react-page-for-notifications)<br>
-  ✅ [Run DynamoDB Local Container and ensure it works](#run-dynamodb-local-container-and-ensure-it-works)<br>
-  ✅ [Run Postgres Container and ensure it works](#run-postgres-container-and-ensure-it-works)<br>
+  
 
 - [**MANDATORY CHALLENGES**](#mandatory-challenges)<br>
   ✅ [Document the Notification Endpoint for the OpenAPI Document](#document-the-notification-endpoint-for-the-openapi-document)<br>
