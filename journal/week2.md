@@ -28,16 +28,16 @@
    ```
    or this can be set in docker-compose file to specifically mention a service name for each part of the project in environemnt
    ```sh
-   OTEL_SERVIVCE_NAME:"backend-flask'
+   OTEL_SERVIVCE_NAME:"backend-flask"
    ```
-  OTEL - CNCF - Open telemetry - standard for observing 
-    add the following code in environment in docker-compose file
+   OTEL - CNCF - Open telemetry - standard for observing 
+   add the following code in environment in docker-compose file
     ```sh
     OTEL_EXPORTER_OTLP_ENDPOINT: "https://api.honeycomb.io"
     OTEL_EXPORTER_OTLP_HEADERS: "x-honeycomb-team=${HONEYCOMB_API_KEY}"
     ```
-  Instructions for Python with Flask code [https://ui.honeycomb.io/project.awscloud-gettingstarted/environments/bootcamp/send-data#]
-  place the following code in requirements.txt
+   Instructions for Python with Flask code [https://ui.honeycomb.io/project.awscloud-gettingstarted/environments/bootcamp/send-data#]
+   place the following code in requirements.txt
     ```sh
     opentelemetry-api 
     opentelemetry-sdk 
@@ -46,11 +46,11 @@
     opentelemetry-instrumentation-requests
     ```
   
-  Run pip instal in gitpod /backend-flask dir
+   Run pip instal in gitpod /backend-flask dir
     ```sh
     pip install -r requirements.txt
     ```
-  Add the following code in app.py and add comment 
+   Add the following code in app.py and add comment 
     ```sh
     from opentelemetry import trace
     from opentelemetry.instrumentation.flask import FlaskInstrumentor
@@ -60,7 +60,7 @@
     from opentelemetry.sdk.trace.export import BatchSpanProcessor
     ```
   
-  place this code above app = Flask(__name__)
+   place this code above app = Flask(__name__)
     ```sh
     # Initialize tracing and an exporter that can send data to Honeycomb
     provider = TracerProvider()
@@ -70,7 +70,7 @@
     tracer = trace.get_tracer(__name__)
      ```
      
-  Add this code below app = Flask(__name__)
+   Add this code below app = Flask(__name__)
     ```sh
     # Initialize automatic instrumentation with Flask
     
