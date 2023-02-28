@@ -5,8 +5,8 @@
   ✅ [Distributed Tracing](#distributed-tracing)<br>
   ✅ [Instrument XRay](#instrument-xray)<br>
   ✅ [CloudWatch Logs](#cloudwatch-logs)<br>
-  ✅ [Observability Security Consideration](#observability-security-considerations)<br>
-  ✅ [Observabilithy Spending Considerations](#observability-spending-considerations)<br>
+  ✅ [Observability Security Considerations](#observability-security-considerations)<br>
+  ✅ [Observability Spending Considerations](#observability-spending-considerations)<br>
 ## MY NOTES
 ### Distributed Tracing
  - AWS Xray is same as honeycomb. But honeycomb is easier
@@ -85,7 +85,7 @@
 
 ### Cloudwatch Logs
 
-### Observability Security Consideration
+### Observability Security Considerations
 #### Logging
 Monolithic - Everythiong is in one place and tightly coupled
 Microservices - 
