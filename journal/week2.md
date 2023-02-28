@@ -5,7 +5,8 @@
   ✅ [Distributed Tracing](#distributed-tracing)<br>
   ✅ [Instrument XRay](#instrument-xray)<br>
   ✅ [CloudWatch Logs](#cloudwatch-logs)<br>
-  
+  ✅ [Observability Security Consideration](#observability-security-considerations)<br>
+  ✅ [Observabilithy Spending Considerations](#observability-spending-considerations)<br>
 ## MY NOTES
 ### Distributed Tracing
  - AWS Xray is same as honeycomb. But honeycomb is easier
@@ -83,3 +84,51 @@
 ### Instrument XRay
 
 ### Cloudwatch Logs
+
+### Observability Security Consideration
+#### Logging
+Monolithic - Everythiong is in one place and tightly coupled
+Microservices - 
+Infra Logs
+Application logs
+Antivirus
+Firewall
+
+Instead of logging everything, log what is needed
+Observability reduces alert fatigue, solving log problems
+visibility of end2end logs
+looking at holistic picture
+#### Observability vs Monitoring
+Observability - entire lifecycle of a program
+Monitoring - looks at one specific application, does not look at third party services outside the application
+Observabilioty 
+  - Logs 
+  - Traces - pinpoint the exact start of the problem
+  - Metrics - to enhance the log produced and use certain techniques 
+
+AWS Observability services
+  - AWS CloudWatch `logs
+  - AWS CloudWtach metrics
+  - AWS X Ray traces
+
+Instrumentation
+what helps to produce logs or metrics
+
+
+Send cloudtrail logs to cloudwatch and setup metrics in the log-groups
+
+
+Applications (Which application & Type of application)--> 
+      Threat Modelling (Identify Attack vectors)--> 
+            Industry Known Attack/Techniques(Map attack vectors to TTP in Attack MITRE Framework) --> 
+                  What agents available for Instrumentation (Tracing like Cloudwatch agents)-->
+                          AWS Services like AWS DISTro for OTEL-->
+                          Dashboard for practical attack vectors for that application -->
+                                Repeat for next application
+ 
+ 
+Central observability Platform - Security
+  - AWS Security Hub with Eventbridge
+  - SIEM
+  - Open Source Dashboards
+  - Event Driven Architecture with AWS Services
