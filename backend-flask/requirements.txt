@@ -7,3 +7,6 @@ opentelemetry-sdk
 opentelemetry-exporter-otlp-proto-http 
 opentelemetry-instrumentation-flask 
 opentelemetry-instrumentation-requests
+
+#watchtower for handling cloudwatch logs
+watchtower
