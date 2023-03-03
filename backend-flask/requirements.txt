@@ -10,3 +10,7 @@ opentelemetry-instrumentation-requests
 
 #watchtower for handling cloudwatch logs
 watchtower
+
+#rollbar for error tracking
+blinker
+rollbar
