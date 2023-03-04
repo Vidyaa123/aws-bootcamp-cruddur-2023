@@ -14,3 +14,6 @@ watchtower
 #rollbar for error tracking
 blinker
 rollbar
+
+#X-Ray
+aws-xray-sdk
