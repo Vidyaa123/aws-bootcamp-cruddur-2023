@@ -132,3 +132,18 @@ Central observability Platform - Security
   - SIEM
   - Open Source Dashboards
   - Event Driven Architecture with AWS Services
+
+
+
+### Observability Spending Considerations
+
+  - Honeycomb
+    - 20 M events for free tier
+  - Rollbar
+    - 5000 events for free tier
+  - AWS Cloudwatch logs
+    - 5 GB of log data ingestion -always free
+  - AWS X-Ray
+    - 100,000 traces/month free tier - always free
+    - first 1 M scans/month free
+
