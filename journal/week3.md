@@ -7,7 +7,9 @@
 ### [Amazon Cognito Security Best Practices](amazon-cognito-security-best-practices)
 ### Amazon Cognito Security Best Practices
 ### Setup Cognito User Pool
-Provision and setup AWS Cognito via Click-Ops. Needs a valid AWS Account.
+Provision and setup AWS Cognito via Click-Ops. Needs a valid AWS Account. 
+#### setup Env Var for frontend
+
 ##### ![Screenshot](Screenshot2023-03-08-01.png)
 
 ### Amazon Cognito Security Best Practices
