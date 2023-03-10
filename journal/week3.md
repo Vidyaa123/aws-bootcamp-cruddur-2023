@@ -1,6 +1,16 @@
 # Week 3 — Decentralized Authentication
-### Amazon Cognito Security Best Practices
 
+### [Setup Cognito User Pool](setup-cognito-user-pool)
+### [Implement SignIn & SignUp Page](implement-signin-&-signup-page)
+### [Implement Custom Confirmation & Regcovery Page](implement-custom-confirmation-&-recovery-page)
+### [Different approaches to verifying JWTs](different-approaches-to-verifying-jwts)
+### [Amazon Cognito Security Best Practices](amazon-cognito-security-best-practices)
+### Amazon Cognito Security Best Practices
+### Setup Cognito User Pool
+Provision and setup AWS Cognito via Click-Ops. Needs a valid AWS Account.
+##### ![Screenshot](Screenshot2023-03-08-01.png)
+
+### Amazon Cognito Security Best Practices
 #### Client side Applications
   - Traditional Authentication (Credentials)
       - username & password
