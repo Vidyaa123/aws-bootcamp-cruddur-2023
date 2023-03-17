@@ -23,7 +23,21 @@ $ aws rds create-db-instance \
   --performance-insights-retention-period 7 \
   --no-deletion-protection
  ```
+ To check if the connection is working add a schema.sql file to cruddur ---- adding an extension
  
+ ```sh
+ psql cruddur < db/schema.sql -h localhost -U postgres
+ ```
+ 
+ Command to setup Connection URL:
+ 
+ ```sh
+ postgresql://[username[:password]@][netloc][:port][/dbname][?param1=value1&...]
+ export CONNECTION_URL="postgresql://postgres:password@localhost:5432/cruddur"
+ gp env ONNECTION_URL="postgresql://postgres:password@localhost:5432/cruddur"
+ 
+```
+
 ### Best Practices for securing Amazon RDS Postgres Database
 1. Relational database ex: cstomer databse, credit card info, username & password
 2. Makes sure where the database is created, check where the region is (**Best practice**)
